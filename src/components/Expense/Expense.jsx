@@ -4,8 +4,8 @@ import styles from './Expense.module.scss';
 
 export default function Expense() {
   return (
-    <section>
-      <Total />
+    <section className={styles.expense}>
+      <Total total={478.33} />
     </section>
   );
 }

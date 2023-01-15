@@ -6,12 +6,12 @@ function App() {
   const amount = 921.48;
   const expenses = [];
   return (
-    <>
+    <main>
       <div className="App">
         <Balance amount={amount} />
         <Expense expenses={expenses} />
       </div>
-    </>
+    </main>
   );
 }
 

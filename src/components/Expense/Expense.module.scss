@@ -1,28 +1,8 @@
-.balance {
+.expense {
+  background: #fffbf6;
+  border-radius: 20px;
   max-width: 540px;
   width: 100%;
-  background: #ec755d;
-  border-radius: 20px;
-  padding-top: 27px;
-  padding-left: 32px;
-  padding-right: 39px;
-  padding-bottom: 25px;
-
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 23px;
-  color: #ffffff;
-
-  display: flex;
-  justify-content: space-between;
-
-  .number {
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 42px;
-    color: #fffbf6;
-    margin-top: 8px;
-  }
+  padding: 40px;
+  padding-top: 32px;
 }

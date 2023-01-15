@@ -1,1 +1,53 @@
-@import '../../index.scss';
+.totals {
+  width: 100%;
+
+  hr {
+    border: none;
+    border-top: 2px solid #f8e9dd;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    border-radius: 1px;
+  }
+  .totals_group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #92857a;
+  }
+
+  .total {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    color: #382314;
+  }
+
+  .month {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #92857a;
+  }
+
+  .percent {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: right;
+    color: #382314;
+  }
+}
