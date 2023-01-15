@@ -1,13 +1,15 @@
 import './App.css';
 import Balance from './components/Balance';
-import Total from './components/Total';
+import Expense from './components/Expense';
 
 function App() {
+  const amount = 921.48;
+  const expenses = [];
   return (
     <>
       <div className="App">
-        <Balance amount={921.48} />
-        <Total total={478.33} />
+        <Balance amount={amount} />
+        <Expense expenses={expenses} />
       </div>
     </>
   );
