@@ -5,4 +5,19 @@
   width: 100%;
   padding: 40px;
   padding-top: 32px;
+  h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #382314;
+    margin-bottom: 66px;
+  }
+  .charts {
+    display: flex;
+    gap: 20px;
+    height: 180px;
+    margin-bottom: 32px;
+  }
 }
