@@ -6,6 +6,23 @@
   flex-direction: column;
   gap: 8px;
   justify-content: flex-end;
+  .price {
+    background: #382314;
+    border-radius: 5px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    padding: 8px;
+    color: #fffbf6;
+    position: absolute;
+    left: 50%;
+    top: -28px;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    opacity: 0;
+  }
 
   .day {
     font-family: 'DM Sans';
@@ -15,6 +32,7 @@
     line-height: 20px;
     text-align: center;
     color: #92857a;
+    pointer-events: none;
   }
 
   .chart {
@@ -29,10 +47,16 @@
 .dayWeek {
   :hover {
     background: #b4e0e5;
+    .price {
+      opacity: 1;
+    }
   }
 }
 .currentDay {
   :hover {
     background: #ff9b86;
+    .price {
+      opacity: 1;
+    }
   }
 }

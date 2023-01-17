@@ -17,7 +17,7 @@ export default function Graph({ max, expense, day }) {
   return (
     <section className={`${styles.bar} ${day === dayWeek ? styles.dayWeek : styles.currentDay}`}>
       <div className={styles.chart} style={style}>
-        <div className="bar-legend">
+        <div className={styles.price}>
           <p>${expense}</p>
         </div>
       </div>
