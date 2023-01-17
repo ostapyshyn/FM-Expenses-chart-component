@@ -20,8 +20,8 @@ export default function Graph({ max, expense, day }) {
         <div className={styles.price}>
           <p>${expense}</p>
         </div>
+        <p className={styles.day}>{day}</p>
       </div>
-      <p className={styles.day}>{day}</p>
     </section>
   );
 }
