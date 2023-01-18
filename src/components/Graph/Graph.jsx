@@ -7,8 +7,6 @@ export default function Graph({ max, expense, day }) {
   let dayWeek = weekday[d.getDay()];
 
   const height = (expense / max) * 100;
-  console.log('MAX:::', max, 'EXPENSE:::', expense);
-  console.log('HEIGHT:::', height);
 
   const style = {
     height: height + '%',

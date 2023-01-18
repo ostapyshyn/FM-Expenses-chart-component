@@ -21,9 +21,6 @@ function App() {
     );
   }, []);
 
-  console.log(data);
-  console.log(max);
-
   const amount = 921.48;
 
   return (
