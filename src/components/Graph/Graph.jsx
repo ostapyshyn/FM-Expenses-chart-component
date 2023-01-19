@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Graph.module.scss';
 
 export default function Graph({ max, expense, day }) {
-  const weekday = ['sun', 'mon', 'tue', 'wed', 'thu', 'sat', 'sun'];
+  const weekday = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
   const d = new Date();
   let dayWeek = weekday[d.getDay()];
 
