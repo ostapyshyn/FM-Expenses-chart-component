@@ -1,3 +1,4 @@
+@import '../../index.scss';
 .totals {
   width: 100%;
 
@@ -7,6 +8,9 @@
     margin: 0 auto;
     margin-bottom: 32px;
     border-radius: 1px;
+    @include mq(768px) {
+      margin-bottom: 24px;
+    }
   }
   .totals_group {
     display: flex;
@@ -15,39 +19,47 @@
   }
 
   h2 {
-    font-family: 'DM Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
     color: #92857a;
+    @include mq(768px) {
+      font-size: 15px;
+      line-height: 20px;
+    }
   }
 
   .total {
-    font-family: 'DM Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 48px;
     line-height: 62px;
     color: #382314;
+    @include mq(768px) {
+      font-size: 30px;
+      line-height: 39px;
+    }
   }
 
   .month {
-    font-family: 'DM Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
     color: #92857a;
+    @include mq(768px) {
+      font-size: 15px;
+      line-height: 20px;
+    }
   }
 
   .percent {
-    font-family: 'DM Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 23px;
     text-align: right;
     color: #382314;
+    @include mq(768px) {
+      font-size: 15px;
+      line-height: 20px;
+    }
   }
 }

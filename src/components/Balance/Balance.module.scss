@@ -1,3 +1,5 @@
+@import '../../index.scss';
+
 .balance {
   max-width: 540px;
   width: 100%;
@@ -8,8 +10,6 @@
   padding-right: 39px;
   padding-bottom: 25px;
 
-  font-family: 'DM Sans';
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
@@ -17,8 +17,19 @@
 
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
   margin-bottom: 24px;
+
+  @include mq(768px) {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 20px;
+    padding-right: 24px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    max-width: 440px;
+  }
 
   .number {
     font-weight: 700;
@@ -26,5 +37,17 @@
     line-height: 42px;
     color: #fffbf6;
     margin-top: 8px;
+    @include mq(768px) {
+      font-size: 24px;
+      line-height: 31px;
+    }
+  }
+  img {
+    width: 72px;
+    height: 48px;
+    @include mq(768px) {
+      width: 60px;
+      height: 40px;
+    }
   }
 }
